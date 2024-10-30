@@ -1,12 +1,11 @@
+<p>
 <img src="/images/cSharp.png" align="right" height="128"/>
-
-
-
 
 # C# 2D Arrays
 
  An application to test different method used to access 2D arrays in C#
  Setting [gblnDebug=False], allow you to make Speed Test with Watch.
+</p>
 
 ## License
 
