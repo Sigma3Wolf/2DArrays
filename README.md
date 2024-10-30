@@ -1,4 +1,4 @@
-<img src="/images/cSharp.png" align="right" height="290"/>
+<img src="/images/cSharp.png" align="right" height="128"/>
 
 # C# 2D Arrays
  An application to test different method used to access 2D arrays in C#
