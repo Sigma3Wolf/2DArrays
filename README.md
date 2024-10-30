@@ -1,5 +1,4 @@
-#
-<img src="/images/cSharp.png" align="right" height="128"/>
+# <img src="/images/cSharp.png" align="right" height="128"/>
 
 # C# 2D Arrays
 
