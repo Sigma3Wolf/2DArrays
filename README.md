@@ -19,7 +19,7 @@ iid{80a11b77a52aa9eeed80c9d37dcb7878519289d40beeddb40bb23a60d2711963}
 - This program contains only original work from [Sigma3Wolf](https://github.com/Sigma3Wolf).
 - Some code snippets from the internet probably inspired me!
 - Images are derivative works based on royalty-free files.
-- Excellent Programming teaching class from Mr. Labouiz
+- Excellent Programming teaching class from Mr. Labouiz.
 #
 
 ### Links
