@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace _2DArray {
     internal class Program {
         //https://www.bytehide.com/blog/2d-arrays-csharp#:~:text=Using%20Multidimensional%20Array%20Methods%20in%20C%23&text=GetLength(0)%20gets%20the%20length,through%20the%20maze%20of%20arrays!
-        private static bool gblnDebug = true;
+        private static bool gblnDebug = true;      //<<<<<<<<<<<<<<<<<<<<<<<<< Change for WatchDog timer
         
         static void Main(string[] args) {
             //let's make a 2D array in Row and Column using GetLenght and one using Virtual Access
@@ -18,10 +18,10 @@ namespace _2DArray {
 
             int xMult;
             if (gblnDebug) {
-                //NE PAS METTRE PLUS DE 10
+                //NE PAS METTRE PLUS DE 10 / DO NOT PUT MORE THEN 10
                 xMult = 1;
             } else {
-                //NE PAS MODIFIER CETTE LIGNE
+                //NE PAS MODIFIER CETTE LIGNE / DO NOT MODIFY THIS LINE
                 xMult = 2500;
             }
             int lngMaxY = 2 * xMult;
@@ -33,7 +33,7 @@ namespace _2DArray {
             int lngX = 0;
             int lngOldY = 0;
             int lngMaxLength = (lngMaxY * lngMaxX);
-            
+
             //Initialize Array
             //string[,] T1 = new string[lngMaxY, lngMaxX] {
             //    {"1x1", "1x2", "1x3" },
@@ -41,6 +41,7 @@ namespace _2DArray {
             //};
             //string[] T2 = new string[lngMaxY * lngMaxX] {"1x1", "1x2", "1x3", "2x1", "2x2", "2x3" };
 
+            Console.WriteLine("WAIT FOR INITIALIZATION TO COMPLETE...");
             string[,] T1 = new string[lngMaxY, lngMaxX];
             string[] T2 = new string[lngMaxY * lngMaxX];
             string strData = "";
@@ -53,10 +54,11 @@ namespace _2DArray {
                     T2[Indice] = strData;
                 }
             }
+            //Initialization completed
 
+            //Test Menu
             int lngChoix = -1;
             do {
-                //Initialization completed
                 Console.Clear();
                 Console.WriteLine("Menu");
                 Console.WriteLine("1. Test 1");
